@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôtel-AL</title>
+    <link rel="stylesheet" href="style Hotel-AL.css">
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation - Hôtel-AL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+ <h1>Réservation</h1>
+   <nav>
+   <ul>
+    <li><a href="tp hotel 2.html">Accueil</a></li>
+    <li><a href="formulaire.html">Réservation</a></li>
+    <li><a href="livre-d'or.html">Livre-d'or</a></li>
+    </ul>
+    </nav>
+    </header>
+
+    <main>
+  <h2>Formulaire de Réservation</h2>
+   <form>
+  <label for="nom">Nom :</label>
+ <input type="text" id="nom" name="nom" required>
+
+ <label for="date">Date d'arrivée :</label>
+<input type="date" id="date" name="date" required>
+
+ <label for="options">Type de chambre :</label>
+ <select id="options" name="options">
+   <option value="standard">Standard</option>
+ <option value="deluxe">De Luxe</option>
+ <option value="familiale">Familiale</option>
+<option value="familiale luxueuse">Familiale luxueuse</option>
+</select>
+
+ <label for="acceptation">Acceptez-vous nos conditions ?</label>
+ <input type="checkbox" id="acceptation" name="acceptation" required>
+
+ <button type="submit">Réserver</button>
+ </form>
+</main>
+
+<footer>
+ <p>&copy; 2024 Hôtel-AL. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
